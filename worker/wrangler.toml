@@ -1,0 +1,10 @@
+name = "e-planner-worker"
+main = "worker/worker.js"
+compatibility_date = "2025-01-01"
+# Uncomment and fill account_id when using wrangler CLI:
+# account_id = "<YOUR_CF_ACCOUNT_ID>"
+
+[[r2_buckets]]
+binding = "EPLANNER_BUCKET"
+bucket_name = "eplanner" # GANTI NAMA BUCKET INI SESUAI R2 ANDA
+preview_bucket_name = "e-planner-r2-bucket"
